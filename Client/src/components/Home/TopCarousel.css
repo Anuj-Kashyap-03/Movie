@@ -1,0 +1,61 @@
+.mySwiper {
+  display: flex;
+  height: 180px;
+}
+
+.carousel_btn {
+  width: 4%;
+}
+
+.carousel-item_loader {
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-content: center !important;
+  top: -45%;
+}
+
+.carousel-item_loader > div {
+    height: fit-content;
+  margin: auto;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  display: none;
+  padding: 30px 15px;
+  background-color:rgb(223 219 219 / 30%);
+  
+}
+
+.swiper-button-prev::after,
+.swiper-button-prev::after {
+  font-size: 2.3rem;
+  padding-top: 5px 2px;
+}
+
+@media only screen and (min-width: 400px) {
+  .mySwiper {
+    height: 270px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .mySwiper {
+    height: 390px;
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  .mySwiper {
+    display: flex;
+    height: 470px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: flex;
+  }
+}

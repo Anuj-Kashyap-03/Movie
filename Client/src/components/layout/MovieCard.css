@@ -1,0 +1,48 @@
+.Movie_box{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 67px;
+    overflow: hidden;
+}
+
+
+.movie_card{
+    display: flex;
+    width: 33.3%;
+}
+
+.movie_card_child{
+    cursor: pointer;
+    width: 96%;
+    display: flex;
+    padding: 2%;
+    transition: all .1s;
+    
+}
+
+.movie_card_child>img{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.movie_card>a{
+    width: 100%;
+}
+
+.movie_card_child:hover{
+    transform: scale(1.08);
+}
+.movie_card_child>div{
+    width: 100%;
+}
+
+
+@media only screen and (min-width:900px) {
+    .movie_card {
+        width: 20%;
+    }
+
+    .Movie_box{
+        margin-top: 80px;
+    }
+    
+}

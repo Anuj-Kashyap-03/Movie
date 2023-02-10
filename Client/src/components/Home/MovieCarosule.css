@@ -1,0 +1,23 @@
+.View_all{
+    position: relative;
+}
+
+.View_all span{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.mySwiper2{
+    min-height: 100px;
+}
+
+.mySwiper2>div>div{
+    padding: 0 1%;
+}
+
+@media only screen and (min-width:600px) {
+.mySwiper2>div>div{
+    padding: 0 .5%;
+}
+}

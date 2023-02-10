@@ -1,0 +1,17 @@
+.home {
+  margin-top: 67px;
+}
+
+.home div{
+  margin-bottom: 20px;
+}
+
+.swiper-slide{
+  margin-bottom: 0px !important;
+}
+
+@media only screen and (min-width: 900px) {
+  .home {
+    margin-top: 80px;
+  }
+}

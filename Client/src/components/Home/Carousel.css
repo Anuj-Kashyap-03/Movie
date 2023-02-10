@@ -1,0 +1,23 @@
+.Carosule  {
+  display: flex;
+  height: 200px;
+  border: 1px solid white;
+  margin-top:30px;
+}
+
+.Carosule_item{
+    display: flex;
+    width: 200px;
+    padding: 0.5%;
+}
+
+
+.Carosule_item img{
+    width: 99%;
+}
+
+@media only screen and (min-width: 900px) {
+  .Carosule {
+    margin-top: 20px;
+  }
+}

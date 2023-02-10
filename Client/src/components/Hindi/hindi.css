@@ -1,0 +1,29 @@
+.load_more,
+#loading {
+  height: 100px !important;
+  bottom: 0;
+}
+#loading {
+  display: none;
+}
+
+.load_more_container {
+  margin-top: 12px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.load_more_button {
+  background-color: #2171d2 !important;
+  color: white;
+  width: 700px;
+  max-width: 90%;
+}
+
+.load_more_button:hover {
+  background-color: #0f70e6 !important;
+  font-weight: 500;
+}

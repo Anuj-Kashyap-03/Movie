@@ -1,0 +1,15 @@
+#search_input{
+    min-height: 58px;
+}
+
+
+.desktop_search{
+    width: 300px ;
+    transition: 0.5 s ;
+}
+
+@media only screen and (min-width:600px){
+    #search_input{
+        min-height: 64px;
+    }
+}

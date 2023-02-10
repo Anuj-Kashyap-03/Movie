@@ -1,0 +1,65 @@
+.moviedetails {
+  display: flex;
+  flex-direction: column;
+  margin-top: 67px;
+}
+
+.moviedetails > :nth-child(1) {
+  padding: 1rem;
+}
+
+.moviedetails_movieloader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.card {
+  display: flex;
+}
+h3.card-title {
+  color: white;
+}
+h5.subtitle {
+  color: white;
+}
+p.card-text {
+  color: white;
+}
+
+.card p {
+  margin-bottom: 35px;
+  color: white;
+}
+
+.text-muted {
+  color: white;
+}
+
+.card h5 {
+  margin-bottom: 25px;
+  color: white;
+}
+div.right{
+    display: flex;
+    align-items: center;
+}
+
+.card-body{
+    padding: none;
+}
+
+
+@media only screen and (min-width: 900px) {
+  .moviedetails {
+    margin-top: 80px;
+    flex-direction: row;
+  }
+  .moviedetails > div {
+    padding: 10px;
+    width: 50%;
+  }
+}
